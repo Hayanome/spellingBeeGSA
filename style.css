@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  background-image: url("The_Spelling_Bee_Ghana_logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #0d476f; /* Azul */
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.logo {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  width: 200px;
+  height: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #27b4b2; /* Azul claro */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #029031; /* Verde */
+}
+
+.respuesta {
+  font-size: 90px;
+  text-align: center;
+  margin-top: 20px;
+  color: #eb6346; /* Naranja oscuro */
+  margin-bottom: 0;
+}
+
+/* Estilo para la imagen */
+#imageContainer img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input para escribir palabra */
+#inputContainer input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+/* Botón de validación */
+#checkButton {
+  background-color: #f39c12; /* Amarillo oscuro */
+}
+
+#checkButton:hover {
+  background-color: #d68910;
+}
+
+/* Retroalimentación */
+#feedback {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#imageContainer img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+}
+
+#inputContainer input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+#checkButton {
+  background-color: #f39c12;
+  color: white;
+}
+
+#checkButton:hover {
+  background-color: #d68910;
+}
+
+#feedback {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    position: static;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+  }
+
+  .respuesta {
+    font-size: 2.5rem;
+    word-wrap: break-word;
+  }
+
+  select, button, input[type="text"] {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  #imageContainer img {
+    max-width: 100px;
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spelling Bee Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="Logo 2025.png" alt="Logo" class="logo">
+
+  <div class="container">
+    <h1>SPELLING BEE 
+      <br> GSA 2025</h1>
+
+    <!-- Selectors -->
+    <div>
+      <label for="gradeSelect">Select Grade:</label>
+      <select id="gradeSelect">
+        <option value="transition_first">Transition & 1st</option>
+        <option value="second_third">2nd & 3rd</option>
+        <option value="fourth_fifth">4th & 5th</option>
+        <option value="sixth_seventh">6th & 7th</option>
+        <option value="eighth_ninth">8th & 9th</option>
+        <option value="tenth_eleventh">10th & 11th</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="typeSelect">Select List Type:</label>
+      <select id="typeSelect">
+        <option value="normal">Normal</option>
+        <option value="master">Master</option>
+      </select>
+    </div>
+
+    <!-- Control Buttons -->
+    <div>
+      <button id="randomizeButton">Randomize Word</button>
+      <button id="playButton">Play Pronunciation</button>
+    </div>
+
+    <!-- Word Display -->
+    <div>
+      <p class="respuesta" id="wordDisplay"></p>
+    </div>
+    <div id="imageContainer" style="text-align:center; margin-top: 20px;"></div>
+    <p id="feedback" style="font-size: 1.3rem; font-weight: bold; margin-top: 10px;"></p>
+
+    <!-- Input and Feedback for Transition & 1st -->
+    <div id="inputContainer" style="display:none; text-align:center; margin-top:20px;">
+      <input type="text" id="userInput" placeholder="Type the word..." />
+      <button id="checkButton">Check</button>
+      <p id="feedback"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

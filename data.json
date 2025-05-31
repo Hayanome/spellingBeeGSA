@@ -1,0 +1,6 @@
+{
+    "facil": ["apple", "banana", "car", "dog", "elephant"],
+    "intermedio": ["chocolate", "guitar", "jungle", "library", "mountain"],
+    "medio": ["accident", "beautiful", "conversation", "disappear", "elephant"],
+    "dificil": ["accommodation", "bureaucracy", "catastrophe", "entrepreneur", "exaggeration"]
+  }
