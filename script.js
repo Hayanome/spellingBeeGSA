@@ -10,15 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
      const words = {
         transition_first: {
             normal: [
-                "Eraser",
-                "Arms",
+                "eraser",
+                "arms",
                 "market",
                 "shower",
                 "sad",
                 "fingers",
                 "glue",
                 "scissors",
-                "Grand-mom",
+                "grand-mom",
                 "sister",
                 "hands",
                 "girl",
