@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "muscles",
                 "resilience",
                 "consistency",
-                "infraestructure",
+                "infrastructure",
                 "sustainability",
                 "environment",
                 "combustion",
